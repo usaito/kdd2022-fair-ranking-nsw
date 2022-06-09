@@ -1,0 +1,45 @@
+# @package _group_
+experiment: default
+# experimental settings
+n_seeds: 10
+n_query: 100
+n_doc: 50
+exam_func: inv
+flip_ratio: 0.3
+default_lam: 0.5
+default_noise: 0.05
+default_K: 5
+# varying configs
+K_list:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 20
+n_doc_list:
+  - 10
+  - 50
+  - 100
+  - 500
+  - 1000
+noise_levels:
+  - 0.00
+  - 0.05
+  - 0.10
+  - 0.15
+  - 0.20
+  - 0.25
+  - 0.30
+lambda_list:
+  - 0.0
+  - 0.2
+  - 0.4
+  - 0.6
+  - 0.8
+  - 1.0
+# hyperparameter of alpha-nsw
+alpha_list:
+  - 2.0
+  - 1.0
+  - 0.5
+  - 0.0

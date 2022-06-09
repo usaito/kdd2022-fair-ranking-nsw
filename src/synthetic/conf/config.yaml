@@ -1,0 +1,8 @@
+defaults:
+  - setting: default
+hydra:
+  run:
+    dir: ./synthetic/logs/n_doc=${setting.n_doc},n_query=${setting.n_query},lam=${setting.default_lam},noise=${setting.default_noise},K=${setting.default_K},exam=${setting.exam_func}
+  sweep:
+    dir: ./synthetic/logs/n_doc=${setting.n_doc},n_query=${setting.n_query},lam=${setting.default_lam},noise=${setting.default_noise},K=${setting.default_K},exam=${setting.exam_func}
+    subdir: ./

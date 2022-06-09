@@ -1,0 +1,22 @@
+# @package _group_
+experiment: default
+# experimental settings
+n_seeds: 10
+n_doc: 100
+exam_func: inv
+dataset: d
+test_size: 0.1
+K: 5
+lam: 0.5
+noise: 0.0
+# varying configs
+K_list:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 20
+# hyperparameter of nsw
+alpha_list:
+  - 1.0
+  - 0.0

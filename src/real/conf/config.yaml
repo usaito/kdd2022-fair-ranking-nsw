@@ -1,0 +1,8 @@
+defaults:
+  - setting: default
+hydra:
+  run:
+    dir: ./real/logs/dataset=${setting.dataset}/n_doc=${setting.n_doc},exam=${setting.exam_func}
+  sweep:
+    dir: ./real/logs/dataset=${setting.dataset}/n_doc=${setting.n_doc},exam=${setting.exam_func}
+    subdir: ./
