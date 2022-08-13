@@ -8,7 +8,15 @@ Rankings have become the primary interface of many two-sided markets. Many have 
 
 ## Citation
 
-TBA
+```
+@inproceedings{saito2022fair,
+  title={Fair Ranking as Fair Division: Impact-Based Individual Fairness in Ranking},
+  author={Saito, Yuta and Joachims, Thorsten},
+  booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages = {1514–1524},
+  year={2022}
+}
+```
 
 ## Requirements and Setup
 
